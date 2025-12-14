@@ -22,5 +22,18 @@ Print("✅•Loading Done")
 -- Play initial sound
 playSound("2865227039")
 
+-- Get player thumbnail
+local userId = Players:GetUserIdFromNameAsync("ellopui")
+local thumbType = Enum.ThumbnailType.HeadShot
+local thumbSize = Enum.ThumbnailSize.Size420x420
+local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Script Loaded✅, By LuaDev❤️",
+    Text = "enjoy the script!",
+    Icon = content,
+    Duration = 5
+})
+
 -- Credits
 Print("Made By LuaDev!")
