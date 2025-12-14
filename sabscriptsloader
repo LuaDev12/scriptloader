@@ -19,5 +19,8 @@ loadstring(game:HttpGet("https://pastebin.com/raw/ke146qjn"))()
 -- NotifyDone
 Print("✅•Loading Done")
 
+-- Play initial sound
+playSound("2865227039")
+
 -- Credits
 Print("Made By LuaDev!")
