@@ -1,9 +1,23 @@
+-- Title
+Print("⬇️•Scripts Loader")
 
-Print("Hello World!")
-Print("⬇️Scripts Loader")
-Print("⬇️Loading Script")
+-- ScriptsTeller
+Print("📃•Script Has LKZ Paintball, NSLX and Lipe.")
+
+-- PrintWorldLoad
+Print("⬇️•Loading Script")
+
+-- ScriptLoader1
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LucasggkX/Games/refs/heads/main/Paintball.lua"))()
+
+-- ScriptLoader2
 loadstring(game:HttpGet("https://raw.githubusercontent.com/murilolol/nslx-autojoiner/refs/heads/main/nslx%20x%20mkz.lua"))()
+
+-- ScriptLoader3
 loadstring(game:HttpGet("https://pastebin.com/raw/ke146qjn"))()
-Print("✅Loading Done")
+
+-- NotifyDone
+Print("✅•Loading Done")
+
+-- Credits
 Print("Made By LuaDev!")
